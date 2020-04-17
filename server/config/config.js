@@ -26,10 +26,10 @@ module.exports = {
         database: process.env.MYSQL_DATABASE,
         host: process.env.MYSQL_HOST,
         port: process.env.MYSQL_PORT,
-        ssl: true,
+        ssl: false,
         dialectOptions: {
             ssl: {
-                encrypt: true,
+                encrypt: false,
                 ca: fs.readFileSync(path.resolve(__dirname, "./BaltimoreCyberTrustRoot.crt.pem"))
             }
         }
