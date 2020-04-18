@@ -14,7 +14,7 @@ const path = require("path");
 const middleware = require("./middleware/middleware");
 const errorHandlingMiddleware = require("./middleware/error-handling");
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 6000;
 
 // Controllers
 const UsersController = require("./controllers/users-controller");
