@@ -1,6 +1,6 @@
 export const environment = {
     production: true,
-    serverRoot: "https://nodemigrationlinux.azurewebsites.net/api",
+    serverRoot: "https://nodejsmigration.azurewebsites.net/api",
     endpoints: {
       auth: {
         signUp: "/users/signup",
